@@ -1,0 +1,35 @@
+.header .header-navigation {
+    float: right;
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.header .header-main {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    text-align: center;
+    align-content: center;
+}
+
+.text-area {
+    text-align: center;
+    align-content: center;
+}
+
+.section-one .box {
+    float: left;
+    width: calc((100% - 140px) / 3);
+    text-align: center;
+    align-content: center;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    align-content: center;
+}

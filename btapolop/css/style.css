@@ -1,0 +1,22 @@
+
+.container {
+    background: lightgray;
+    padding: 1rem; 
+}
+
+header, article, aside, footer {
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.image-box{
+    box-sizing: border-box;
+    background: lightgray;
+    padding: 1rem;
+    height: 5rem;
+    border: 1px solid black;
+}

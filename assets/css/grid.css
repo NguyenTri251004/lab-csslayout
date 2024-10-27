@@ -1,0 +1,30 @@
+.header-main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.section-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.banner {
+    text-align: center;
+    align-content: center;
+}
+
+.text-area {
+    text-align: center;
+    align-content: center;
+}
+
+.section-one .box {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.footer {
+    text-align: center;
+    align-content: center;
+}

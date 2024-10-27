@@ -1,0 +1,36 @@
+
+aside {
+    float: left;
+    width: 30%;
+    min-height: 400px;
+}
+
+article {
+    float: right;
+    width: calc(100% - 30% - 1rem);
+    min-height: 400px;
+    position: relative;
+}
+main {
+    margin: 1rem 0;
+    overflow: auto;
+    scrollbar-width: none;
+}
+footer {
+    clear: both;
+}
+
+.image-container {
+    overflow: auto;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    width: 100%;
+}
+
+.image-box {
+    /* position: absolute; */
+    float: left;
+    margin-right: 1rem;
+    width: calc( (100% - 4rem)/3);
+}

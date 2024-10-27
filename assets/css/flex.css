@@ -1,0 +1,32 @@
+
+
+.header .header-main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner {
+    text-align: center;
+    align-content: center;
+}
+
+.text-area {
+    text-align: center;
+    align-content: center;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    align-content: center;
+}
+
+.footer {
+    text-align: center;
+    align-content: center ;
+}
