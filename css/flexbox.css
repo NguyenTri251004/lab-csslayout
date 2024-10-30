@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+nav {
+    margin:0.5em 0;
+}
+
+.container {
+    width:80%;
+
+}
+
+main {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+aside {
+    text-align: center;
+    align-content: center;
+    flex-basis: 30%;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70%;
+    min-height: 400px;
+}

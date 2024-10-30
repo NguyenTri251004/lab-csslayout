@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+nav {
+    margin:0.5em 0;
+}
+
+
+.container {
+    width:80%;
+    margin: 0 auto;
+}
+
+
+aside {
+    float:left;
+    text-align: center;
+    align-content: center;
+    width: 30%;
+    min-height: 400px;
+}
+
+article{
+    float: right;
+    text-align: center;
+    align-content: center;
+    min-height: 400px;
+    width: calc(100% - 30% - 1rem);
+    overflow: hidden;
+}
+
+footer{
+    clear:both;
+}
+
+main{
+    margin: 1rem 0;
+    overflow: auto;
+}
+
